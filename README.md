@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Tony Hawk's Pro Skater 1 + 2 - Character Select Clone :skateboard:
 
-### Project Status - Complete :green_circle
+### Project Status - Complete :large_green_circle
 
 ![Image of Character Select](https://github.com/phellipe5k/tony-hawk-character-select-clone/blob/master/Captura%20de%20tela%20de%202020-09-16%2023-28-47.png)
 
