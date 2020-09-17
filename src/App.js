@@ -23,7 +23,8 @@ class App extends React.Component {
       elenco: 'ELENCO ORIGINAL',
       modal: false,
       modalClass: 'none',
-      anim: 'anim-enter'
+      anim: 'anim-enter',
+      blockChange: '',
     }
   };
 
@@ -52,6 +53,7 @@ class App extends React.Component {
         style: data[13].style,
         thumb: data[13].thumb,
         link: data[13].videoLink,
+        blockChange: 'blockChange',
       }))
     } else {
       this.setState(({
@@ -64,6 +66,7 @@ class App extends React.Component {
         style: data[0].style,
         thumb: data[0].thumb,
         link: data[0].videoLink,
+        blockChange: '',
       }))
     }
   };
@@ -103,7 +106,8 @@ class App extends React.Component {
               <FontAwesomeIcon icon={faAngleRight} className='hoverIcon' />
             </button>
           </h1>
-          <div className='select-wrap'>
+          <div className='scroll-char'>
+          <div className={`select-wrap ${this.state.blockChange}`}>
           {
             data.filter((el) => el.cast === cast).map((el, index) => (
               <Select
@@ -124,6 +128,8 @@ class App extends React.Component {
             ))
           }
           </div>
+          </div>
+          
             </div>
             <Modal 
               modal={this.state.modalClass}

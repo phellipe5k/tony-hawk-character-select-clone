@@ -18,6 +18,7 @@ class Character extends Component {
           <div className={`character`}>
               <img src={char} className={`charImage ${this.props.anim}`} alt={name}/>
               <div className='information'>
+                <div className='info-part'>
                 <h1 className={`name ${this.props.anim}`}>{name}</h1>
                 <p className={`city ${this.props.anim}`}>{city}</p>
                 <div className='posi-style'>
@@ -34,6 +35,8 @@ class Character extends Component {
                     <p>{style}</p>
                   </div>
                 </div>
+                </div>
+  
                 <div className='thumb-wrap' onClick={this.props.modalOn}>
                 <img src={thumb} className='thumb' alt={name}/>
                 </div>
