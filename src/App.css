@@ -42,6 +42,9 @@ body, html{
 
 .aimg-profile {
   cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
 }
 .aimg-profile:focus .img-profile {
   transform: scale(1.3);
