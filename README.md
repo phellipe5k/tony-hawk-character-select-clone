@@ -16,9 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Project done using HoF and React.js, a library that i've already learned on [Trybe](https://www.betrybe.com/) in 3 months from the scratch.
 
-![Mobile version 1](https://github.com/phellipe5k/tony-hawk-character-select-clone/blob/master/mobile1.png)
-
-![Mobile version 2](https://github.com/phellipe5k/tony-hawk-character-select-clone/blob/master/mobile2.png)
+![Mobile version 1](https://github.com/phellipe5k/tony-hawk-character-select-clone/blob/master/mobile1.png)![Mobile version 2](https://github.com/phellipe5k/tony-hawk-character-select-clone/blob/master/mobile2.png)
 
 ![Medium ](https://github.com/phellipe5k/tony-hawk-character-select-clone/blob/master/medium.png)
 
